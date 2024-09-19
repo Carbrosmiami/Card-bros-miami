@@ -1,0 +1,7 @@
+body {
+    background-image: url('https://github.com/Carbrosmiami/Card-bros-miami/blob/main/wp12325364.jpg?raw=true');
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating if the image is small */
+    background-attachment: fixed; /* Fixes the background while scrolling */
+}
