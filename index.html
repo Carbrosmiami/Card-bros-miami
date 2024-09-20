@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <!-- Link to the Miami Skyline CSS file -->
+    <link rel="stylesheet" href="miamiskyline.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Bros Miami - Memorabilia</title>
@@ -45,7 +46,6 @@
             position: relative;
         }
 
-        /* Add sports icon next to each navigation item */
         nav a::before {
             content: url('https://example.com/sport-icon.png'); /* Replace with sports icon URL */
             position: absolute;
@@ -59,7 +59,7 @@
             color: white;
         }
 
-        /* Hero Section with Sports Background */
+        /* Hero Section */
         .hero-section {
             background: url('https://your-sports-background-url.jpg') no-repeat center center/cover;
             height: 400px;
@@ -91,85 +91,6 @@
         .hero-section a:hover {
             background-color: #00d7df;
             transform: scale(1.05); /* Button grows slightly when hovered */
-        }
-
-        /* Gallery */
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-            background-color: #fff; /* White background for gallery */
-            position: relative;
-        }
-
-        /* Add sports-themed icon in the background of the gallery section */
-        .gallery::before {
-            content: '';
-            background: url('https://example.com/sports-background-icon.png'); /* Replace with sports icon */
-            opacity: 0.1;
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .gallery-item {
-            width: 250px;
-            margin: 15px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            background-color: white;
-            position: relative;
-        }
-
-        .gallery-item:hover {
-            transform: scale(1.05); /* Enlarges on hover */
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a shadow */
-        }
-
-        /* Sports icon appears on hover over gallery items */
-        .gallery-item:hover::before {
-            content: url('https://example.com/sport-hover-icon.png'); /* Replace with sports icon */
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 30px;
-            height: 30px;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .gallery-item h3 {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #f0f0f0;
-            color: black;
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-        }
-
-        .gallery-item a {
-            display: block;
-            text-align: center;
-            padding: 10px;
-            background-color: #00d7df;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .gallery-item a:hover {
-            background-color: #f080c0;
         }
 
         footer {
