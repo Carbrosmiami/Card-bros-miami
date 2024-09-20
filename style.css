@@ -9,7 +9,7 @@ body {
 
 /* Styling for the logo in the header */
 header img {
-    width: 600px; /* Set the logo width to make it larger */
+    width: 600px !important; /* Set the logo width to make it larger */
     height: auto; /* Keep the height auto to maintain aspect ratio */
 }
 
