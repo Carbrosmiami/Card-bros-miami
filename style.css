@@ -1,9 +1,16 @@
+/* Background image */
 body {
     background-image: url('https://github.com/Carbrosmiami/Card-bros-miami/blob/main/98232566d5406f8f738e264a6a765d90_LE_auto_x2_light_ai.jpeg?raw=true');
     background-size: cover; /* Ensures the image covers the whole page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating if the image is small */
     background-attachment: fixed; /* Fixes the background while scrolling */
+}
+
+/* Styling for the logo in the header */
+header img {
+    width: 400px; /* Set the logo width to make it larger */
+    height: auto; /* Keep the height auto to maintain aspect ratio */
 }
 
 /* Styling for Navigation Tabs */
@@ -53,17 +60,6 @@ nav a:hover {
         font-size: 18px; /* Smaller button text */
         padding: 10px 20px; /* Adjust button padding */
     }
-
-    .gallery-item {
-        width: 100%; /* Make gallery items take full width on mobile */
-        margin: 10px 0;
-    }
-
-    footer {
-        padding: 20px;
-        font-size: 14px;
-    }
-}
 
     .gallery-item {
         width: 100%; /* Make gallery items take full width on mobile */
