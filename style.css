@@ -8,9 +8,15 @@ body {
 }
 
 /* Styling for the logo in the header */
+header {
+    background-color: transparent; /* Ensure the header has no background */
+    text-align: center; /* Center the logo */
+}
+
 header img {
     width: 600px; /* Set the logo width to make it larger */
     height: auto; /* Keep the height auto to maintain aspect ratio */
+    background-color: transparent; /* Ensure no background behind the logo */
 }
 
 /* Styling for Navigation Tabs */
@@ -28,7 +34,7 @@ nav a {
 
 nav a:hover {
     background-color: #f080c0; /* Keep the pink hover background */
-    color: white; /* Change hover text color to black */
+    color: white; /* Change hover text color */
 }
 
 /* Media Query for Mobile Devices */
