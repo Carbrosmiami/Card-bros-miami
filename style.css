@@ -7,16 +7,22 @@ body {
     background-attachment: fixed; /* Fixes the background while scrolling */
 }
 
-/* Styling for the logo in the header */
+/* Styling for the header */
 header {
-    background-color: transparent; /* Ensure the header has no background */
+    background-color: transparent; /* Set the header background to transparent */
     text-align: center; /* Center the logo */
+    padding: 20px 0; /* Add some space above and below */
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
 }
 
+/* Styling for the logo image */
 header img {
-    width: 600px; /* Set the logo width to make it larger */
-    height: auto; /* Keep the height auto to maintain aspect ratio */
-    background-color: transparent; /* Ensure no background behind the logo */
+    width: 400px; /* Try reducing the size initially to check if it resolves the issue */
+    height: auto;
+    background-color: transparent; /* Make sure the image itself has no background */
+    display: block; /* Ensure the image acts as a block-level element */
 }
 
 /* Styling for Navigation Tabs */
