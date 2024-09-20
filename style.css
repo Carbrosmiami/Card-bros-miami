@@ -6,6 +6,24 @@ body {
     background-attachment: fixed; /* Fixes the background while scrolling */
 }
 
+/* Styling for Navigation Tabs */
+nav a {
+    color: white; /* Make the navigation text white */
+    font-weight: bold; /* Make the navigation text bold */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: #f080c0; /* Keep the pink hover background */
+    color: black; /* Change hover text color to black */
+}
+
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
     body {
@@ -35,6 +53,17 @@ body {
         font-size: 18px; /* Smaller button text */
         padding: 10px 20px; /* Adjust button padding */
     }
+
+    .gallery-item {
+        width: 100%; /* Make gallery items take full width on mobile */
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
 
     .gallery-item {
         width: 100%; /* Make gallery items take full width on mobile */
