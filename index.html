@@ -9,8 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
-
-    <!-- Styling for the website -->
     <style>
         body {
             font-family: Arial, sans-serif; /* Default for body */
@@ -47,6 +45,7 @@
             position: relative;
         }
 
+        /* Add sports icon next to each navigation item */
         nav a::before {
             content: url('https://example.com/sport-icon.png'); /* Replace with sports icon URL */
             position: absolute;
@@ -60,7 +59,7 @@
             color: white;
         }
 
-        /* Hero Section */
+        /* Hero Section with Sports Background */
         .hero-section {
             background: url('https://your-sports-background-url.jpg') no-repeat center center/cover;
             height: 400px;
@@ -73,10 +72,10 @@
         }
 
         .hero-section h1 {
-            font-family: 'Mr Dafoe', cursive;
+            font-family: 'Mr Dafoe', cursive; /* Font for Card Bros Miami */
             font-size: 60px;
             margin-bottom: 20px;
-            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); /* Cool shadow effect */
         }
 
         .hero-section a {
@@ -91,18 +90,30 @@
 
         .hero-section a:hover {
             background-color: #00d7df;
-            transform: scale(1.05);
+            transform: scale(1.05); /* Button grows slightly when hovered */
         }
 
-        /* Updated Gallery Section with Miami Skyline Background */
+        /* Gallery */
         .gallery {
-            background: url('https://github.com/Carbrosmiami/Card-bros-miami/blob/main/98232566d5406f8f738e264a6a765d90_LE_auto_x2_light_ai.jpeg?raw=true') no-repeat center center/cover;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             padding: 20px;
-            background-size: cover;
+            background-color: #fff; /* White background for gallery */
             position: relative;
+        }
+
+        /* Add sports-themed icon in the background of the gallery section */
+        .gallery::before {
+            content: '';
+            background: url('https://example.com/sports-background-icon.png'); /* Replace with sports icon */
+            opacity: 0.1;
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
         .gallery-item {
@@ -117,8 +128,18 @@
         }
 
         .gallery-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05); /* Enlarges on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+        }
+
+        /* Sports icon appears on hover over gallery items */
+        .gallery-item:hover::before {
+            content: url('https://example.com/sport-hover-icon.png'); /* Replace with sports icon */
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 30px;
         }
 
         .gallery-item img {
