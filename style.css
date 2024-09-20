@@ -9,7 +9,7 @@ body {
 
 /* Styling for the logo in the header */
 header img {
-    width: 400px; /* Set the logo width to make it larger */
+    width: 600px; /* Set the logo width to make it larger */
     height: auto; /* Keep the height auto to maintain aspect ratio */
 }
 
@@ -28,7 +28,7 @@ nav a {
 
 nav a:hover {
     background-color: #f080c0; /* Keep the pink hover background */
-    color: black; /* Change hover text color to black */
+    color: white; /* Change hover text color to black */
 }
 
 /* Media Query for Mobile Devices */
